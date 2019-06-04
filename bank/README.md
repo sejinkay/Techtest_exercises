@@ -11,7 +11,7 @@ How to run
 How to use
 ----
 1. Type `account = Bank.new` to create an account
-2. Type `account.add(1000)` to credit 1000.00
+2. Type `account.deposit(1000)` to deposit 1000.00
 3. Type `account.withdraw(500)` to withdraw 500.00
 4. Type `account.statement` to see your account statement
 

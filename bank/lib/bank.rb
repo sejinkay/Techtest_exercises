@@ -7,15 +7,15 @@ class Bank
     @date = Time.now.strftime('%d/%m/%y')
   end
 
-  def add(deposit)
-    @balance += deposit
-    @transaction << "#{@date} || #{'%.2f' % deposit} || ---- || #{'%.2f' % @balance}"
+  def deposit(amount)
+    @balance += amount
+    @transaction << "#{@date} || #{'%.2f' % amount} || ---- || #{'%.2f' % @balance}"
     "Your current balance is #{'%.2f' % @balance}"
   end
 
-  def withdraw(deposit)
-    @balance -= deposit
-    @transaction << "#{@date} || ---- || #{'%.2f' % deposit} || #{'%.2f' % @balance}"
+  def withdraw(amount)
+    @balance -= amount
+    @transaction << "#{@date} || ---- || #{'%.2f' % amount} || #{'%.2f' % @balance}"
     "Your current balance is #{'%.2f' % @balance}"
   end
 
