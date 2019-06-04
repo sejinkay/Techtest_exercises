@@ -1,12 +1,25 @@
 # Bank tech test
 
-Today, you'll practice doing a tech test.
+How to run
+----
 
-For most tech tests, you'll essentially have unlimited time.  This practice session is about producing the best code you can when there is a minimal time pressure.
+1. Clone this repo
+2. Run bundle install
+3. Run `irb -r ./lib/bank.rb`
+4. Good to go!
 
-You'll get to practice your OO design and TDD skills.
+How to use
+----
+1. Type `account = Bank.new` to create an account
+2. Type `account.add(1000)` to credit 1000.00
+3. Type `account.withdraw(500)` to withdraw 500.00
+4. Type `account.statement` to see your account statement
 
-You'll work alone, and you'll also review your own code so you can practice reflecting on and improving your own work.
+How to run the test
+----
+1. Type `rspec` to check test coverage
+2. Type `rubocop` to check formatting
+
 
 ## Specification
 
