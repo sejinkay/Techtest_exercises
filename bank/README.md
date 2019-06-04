@@ -8,12 +8,16 @@ How to run
 3. Run `irb -r ./lib/bank.rb`
 4. Good to go!
 
+
+
 How to use
 ----
 1. Type `account = Bank.new` to create an account
 2. Type `account.deposit(1000)` to deposit 1000.00
 3. Type `account.withdraw(500)` to withdraw 500.00
 4. Type `account.statement` to see your account statement
+
+<img src="./img/bank.png">
 
 How to run the test
 ----
