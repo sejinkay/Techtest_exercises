@@ -1,6 +1,6 @@
 #!/usr/bin/ruby -w
 
-require 'glided_rose'
+require '../lib/glided_rose'
 
 puts "OMGHAI!"
 items = [
